@@ -1,12 +1,12 @@
 # AutoInt: Automatic Integration 
 ### [Project Page](http://www.computationalimaging.org/publications/automatic-integration/) | [Video](https://www.youtube.com/watch?v=GYxFYbih0PU) | [Paper](https://arxiv.org/abs/2003.08934)
 [![Open Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1E-5etVB370EiTUln9ECrY9wx7CRAgh1M?usp=sharing)<br>
-PyTorch implementation of automatic integration.<br><br>
-[AutoInt: Automatic Integration for Fast Neural Volume Rendering](http://www.computationalimaging.org/publications/automatic-integration/)
+PyTorch implementation of automatic integration.
+[AutoInt: Automatic Integration for Fast Neural Volume Rendering](http://www.computationalimaging.org/publications/automatic-integration/)<br>
  [David B. Lindell](https://davidlindell.com)\*,
  [Julien N. P. Martel](http://web.stanford.edu/~jnmartel/)\*,
- [Gordon Wetzstein](https://computationalimaging.org)\*,
- Stanford University 
+ [Gordon Wetzstein](https://computationalimaging.org),<br>
+ Stanford University <br>
   \*denotes equal contribution  
 in CVPR 2021
 
@@ -23,7 +23,6 @@ conda activate autoint
 cd experiment_scripts
 python train_1d_integral.py
 tensorboard --logdir=../logs --port=6006
-
 ```
 
 This example will fit a grad network to a 1D signal and evaluate the integral. You can monitor the training in your browser at `localhost:6006`. You can also train a network on the sparse tomography problem presented in the paper with `python train_sparse_tomography.py`.  
