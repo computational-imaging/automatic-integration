@@ -32,7 +32,7 @@ This example will fit a grad network to a 1D signal and evaluate the integral. Y
 
 Automatic integration can be used to learn closed form solutions to the volume rendering equation, which is an integral equation accumulates transmittance and emittance along rays to render an image. While conventional neural renderers require hundreds of samples along each ray to evaluate these integrals (and hence hundreds of costly forward passes through a network), AutoInt allows evaluating these integrals far fewer forward passes. 
 
-# Training
+#### Training
 
 To run AutoInt for neural rendering, first set up the conda environment with  
 ```
@@ -50,7 +50,7 @@ tensorboard --logdir=../logs/ --port=6006
 
 This will train a small, low-resolution scene. To train scenes at high-resolution (requires a few days of training time), use the `config_blender.ini`, `config_deepvoxels.ini`, or `config_llff.ini` config files. 
 
-# Rendering
+#### Rendering
 
 Rendering from a trained model can be done with the following command.
 ```
