@@ -5,7 +5,7 @@ PyTorch implementation of automatic integration.<br>
 [AutoInt: Automatic Integration for Fast Neural Volume Rendering](http://www.computationalimaging.org/publications/automatic-integration/)<br>
  [David B. Lindell](https://davidlindell.com)\*,
  [Julien N. P. Martel](http://web.stanford.edu/~jnmartel/)\*,
- [Gordon Wetzstein](https://computationalimaging.org),<br>
+ [Gordon Wetzstein](https://computationalimaging.org)<br>
  Stanford University <br>
   \*denotes equal contribution  
 in CVPR 2021
