@@ -1,4 +1,4 @@
-# AutoInt: Automatic Integration 
+# AutoInt: Automatic Integration | CVPR 2021
 ### [Project Page](http://www.computationalimaging.org/publications/automatic-integration/) | [Video](https://www.youtube.com/watch?v=GYxFYbih0PU) | [Paper](https://arxiv.org/abs/2003.08934)
 [![Open Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1E-5etVB370EiTUln9ECrY9wx7CRAgh1M?usp=sharing)<br>
 PyTorch implementation of automatic integration.<br>
