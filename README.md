@@ -1,4 +1,4 @@
-# AutoInt: Automatic Integration | CVPR 2021
+# AutoInt: Automatic Integration for Fast Neural Volume Rendering <br> CVPR 2021
 ### [Project Page](http://www.computationalimaging.org/publications/automatic-integration/) | [Video](https://www.youtube.com/watch?v=GYxFYbih0PU) | [Paper](https://arxiv.org/abs/2003.08934)
 [![Open Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/computational-imaging/automatic-integration/blob/master/autoint_example.ipynb)<br>
 PyTorch implementation of automatic integration.<br>
