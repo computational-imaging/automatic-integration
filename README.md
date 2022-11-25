@@ -54,7 +54,7 @@ This will train a small, low-resolution scene. To train scenes at high-resolutio
 
 Rendering from a trained model can be done with the following command.
 ```
-python train_autoint_radiance_field.py --config /path/to/config/file --render_model ../logs/path/to/log/directory <epoch number> --render_ouput /path/to/output/folder
+python train_autoint_radiance_field.py --config /path/to/config/file --render_model ../logs/path/to/log/directory <epoch number> --render_output /path/to/output/folder
 ```
 
 Here, the `--render_model` command indicates the log directory where the code saves the models and checkpoints. For example, this would be `../logs/blender_lego` for the default Blender dataset. Then, the epoch number can be found by looking at numbers of the the saved checkpoint filenames in `../logs/blender_lego/checkpoints/`. Finally, `--render_output` should specify a folder where the output rendered images will be generated.
